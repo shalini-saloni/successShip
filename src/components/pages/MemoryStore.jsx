@@ -124,7 +124,7 @@ export function MemoryStore({ memories, deleteMemory, openInspector }) {
   )
 }
 
-function ActionBtn({onClick, hoverColor, hoverBg }) {
+function ActionBtn({ icon: Icon, onClick, hoverColor, hoverBg }) {
   const [hov, setHov] = useState(false)
   return (
     <button

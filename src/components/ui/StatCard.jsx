@@ -1,7 +1,7 @@
 import { Panel } from './Panel.jsx'
 import { C } from '../../utils/theme.js'
 
-export function StatCard({ label, value, color, bg, border, sub }) {
+export function StatCard({ label, value, Icon, color, bg, border, sub }) {
   return (
     <Panel p={18} style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
       <div
